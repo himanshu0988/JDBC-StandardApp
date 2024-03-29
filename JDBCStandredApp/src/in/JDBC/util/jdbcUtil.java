@@ -28,7 +28,7 @@ public class jdbcUtil {
 		
 		public static Connection getConnection() throws SQLException, IOException
 		{
-			FileInputStream f=new FileInputStream("C:\\Users\\HIMANSHU\\eclipse-workspace\\JDBCStandredApp\\src\\application.properties");
+			FileInputStream f=new FileInputStream("C:\\Users\\HIMANSHU\\git\\repository9\\JDBCStandredApp\\src\\application.properties");
 			Properties p=new Properties();
 			p.load(f);
 			
